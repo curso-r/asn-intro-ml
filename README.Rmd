@@ -1,0 +1,87 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Aula de Introdução ao Machine Learning
+
+**Professor:** Athos Damiani 
+
+**Realização:** [ASN.rocks](https://asn.rocks/)
+
+# Pré-requisitos
+
+## Configuração: Instalar pacotes
+
+```{r, eval=FALSE, echo = TRUE}
+install.packages('tidyverse')
+install.packages('tidymodels')
+install.packages('rmarkdown')
+install.packages('knitr')
+install.packages('ISLR')
+install.packages('glmnet')
+install.packages('xgboost')
+install.packages('randomForest')
+install.packages('ranger')
+install.packages('rpart')
+install.packages('rpart.plot')
+install.packages('pROC')
+install.packages('vip')
+install.packages('modeldata')
+install.packages('usemodels')
+install.packages('tidypredict')
+install.packages('jpeg')
+install.packages('MASS')
+install.packages('DataExplorer')
+install.packages('skimr')
+install.packages('naniar')
+install.packages('patchwork')
+```
+
+
+## Slides
+
+```{r, echo = FALSE}
+main_repo <- "asn-intro-ml"
+knitr::kable(
+  tibble::tibble(
+    slide = list.files("slides/", "\\.html"),
+    link = paste0("https://curso-r.github.io/", main_repo, "/slides/", slide)
+  ) %>% 
+    dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
+    dplyr::slice(1:3)
+)
+```
+
+## Referências externas
+
+#### Machine Learning
+
+- [Introduction to Statistical Learning (Hastie, et al)](https://web.stanford.edu/~hastie/ISLRv2_website.pdf)
+- [Elements of Statistical Learning (Hastie, et al)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+- [Computer Age Statistical Inference (Hastie, Efron)](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
+- [Tidymodels (Kuhn, et al)](https://www.tidymodels.org/)
+- [Feature Engineering and Selection: A Practical Approach for Predictive Models (Kuhn, Kjell)](http://www.feat.engineering/)
+- [Kaggle](https://www.kaggle.com/)
+
+#### Programação em R
+
+- [Livro da Curso-R (Curso-R)](https://livro.curso-r.com/)
+- [Tidyverse (Wickham H)](https://www.tidyverse.org/)
+- [R for Data Science (Wickham H)](https://r4ds.had.co.nz/)
+- [Advanced R (Wickham H)](https://adv-r.hadley.nz/)
+
+#### Miscelânea
+
+- [Tidytext (Silges, et al)](https://www.tidytextmining.com/)
+- [Tabnet model (Falbel)](https://mlverse.github.io/tabnet/)
+- [Forecasting: Principles and Practive (Hyndman, Athanasopoulos)](https://otexts.com/fpp3/)
+
