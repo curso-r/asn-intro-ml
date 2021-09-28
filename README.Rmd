@@ -50,6 +50,7 @@ install.packages('patchwork')
 ## Slides
 
 ```{r, echo = FALSE}
+library(magrittr)
 main_repo <- "asn-intro-ml"
 knitr::kable(
   tibble::tibble(
