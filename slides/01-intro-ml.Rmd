@@ -188,9 +188,7 @@ adv <- read_csv("static/data/Advertising.csv") %>%
   rename(vendas = sales)
 ```
 
-Somos consultores e fomos contratados para dar conselhos para uma empresa aumentar as suas vendas.
-
-Obtivemos o seguinte banco de dados
+Somos consultores e fomos contratados para dar conselhos para uma empresa aumentar as suas vendas. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 adv_ok <- adv %>% 
@@ -259,9 +257,7 @@ inad_curva +
 # Motivação - outro exemplo
 
 
-Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso.
-
-Obtivemos o seguinte banco de dados
+Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 inad_curva + 
@@ -276,9 +272,7 @@ inad_curva +
 # Motivação - outro exemplo
 
 
-Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso.
-
-Obtivemos o seguinte banco de dados
+Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 inad_curva +
@@ -296,9 +290,7 @@ inad_curva +
 # Motivação - outro exemplo
 
 
-Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso.
-
-Obtivemos o seguinte banco de dados
+Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 inad_curva +
@@ -317,9 +309,7 @@ inad_curva +
 # Motivação - outro exemplo
 
 
-Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso.
-
-Obtivemos o seguinte banco de dados
+Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 inad_curva +
@@ -337,9 +327,7 @@ inad_curva +
 # Motivação - outro exemplo
 
 
-Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso.
-
-Obtivemos o seguinte banco de dados
+Somos da área de inadimplência e precisamos agir para assessorar clientes em situação iminente de atraso. Obtivemos o seguinte banco de dados
 
 ```{r, fig.width = 10, fig.height = 4}
 inad_curva +
