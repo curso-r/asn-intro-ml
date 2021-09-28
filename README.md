@@ -38,11 +38,10 @@ install.packages('patchwork')
 
 ## Slides
 
-| slide                       | link                                                                        |
-|:----------------------------|:----------------------------------------------------------------------------|
-| 01-intro-ml.html            | <https://curso-r.github.io/asn-intro-ml/slides/01-intro-ml.html>            |
-| 02-intro-classificacao.html | <https://curso-r.github.io/asn-intro-ml/slides/02-intro-classificacao.html> |
-| 03-modelos-de-arvores.html  | <https://curso-r.github.io/asn-intro-ml/slides/03-modelos-de-arvores.html>  |
+| slide                      | link                                                                       |
+|:---------------------------|:---------------------------------------------------------------------------|
+| 01-intro-ml.html           | <https://curso-r.github.io/asn-intro-ml/slides/01-intro-ml.html>           |
+| 03-modelos-de-arvores.html | <https://curso-r.github.io/asn-intro-ml/slides/03-modelos-de-arvores.html> |
 
 ## Referências externas
 
