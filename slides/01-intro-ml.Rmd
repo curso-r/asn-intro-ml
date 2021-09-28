@@ -31,6 +31,8 @@ options(htmltools.dir.version = FALSE)
 
 ## Objetivos
 
+- Visão geral sobre Machine Learning
+
 - Revisão de regressão linear e logística
 
 - Overfiting
