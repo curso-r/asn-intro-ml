@@ -2,7 +2,7 @@
 
 library(ggplot2)
 library(skimr)
-library(tidymodels)
+library(tidymodels) # install.packages("tidymodels")
 
 # Dados -------------------------------------------------------------------
 data("diamonds")
@@ -23,7 +23,7 @@ qplot(x, price, data = diamonds)
 # b) o pacote 'motor' (engine);
 # c) a tarefa/modo ("regression" ou "classification").
 
-especificacao_modelo <- linear_reg() %>%
+especificacao_modelo <- linear_reg(penalty = 0.1) %>%
   set_engine("lm") %>%
   set_mode("regression")
 

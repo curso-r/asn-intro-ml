@@ -24,6 +24,8 @@ especificacao_modelo <- linear_reg() %>%
 
 # ajuste do modelo --------------------------------------------------------
 
+
+# x + x^2 + x^3 + x^4
 ajuste_modelo1 <- especificacao_modelo %>%
   fit(price ~ poly(x, 4), data = diamondsinho)
 ajuste_modelo2 <- especificacao_modelo %>%

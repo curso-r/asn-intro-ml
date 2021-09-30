@@ -1924,6 +1924,8 @@ email_tratado %>%
 ---
 class: middle, center
 
+## Exemplo 04
+
 ## Exercício 01
 
 ---
