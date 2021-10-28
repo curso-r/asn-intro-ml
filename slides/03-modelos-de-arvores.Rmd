@@ -21,7 +21,7 @@ library(knitr)
 library(kableExtra)
 library(tidymodels)
 library(tidyverse)
-library(plot3D)
+# library(plot3D)
 library(ISLR)
 theme_set(theme_minimal(14))
 options(htmltools.dir.version = FALSE, fig.retina = 2)
@@ -483,9 +483,6 @@ class: inverse, middle, center
 
 ]
 
-.footnote[
-Ver [ESL](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) página 341 (Gradient Boosting).
-]
 
 
 ---
@@ -508,10 +505,6 @@ Ver [ESL](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) página 341 (Gradie
 <img src="static/img/boost1.png" style="width: 70%;"/>
 
 
-]
-
-.footnote[
-Ver [ESL](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) página 341 (Gradient Boosting).
 ]
 
 ---
